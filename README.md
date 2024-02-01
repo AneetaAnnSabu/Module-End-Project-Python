@@ -9,16 +9,25 @@ I carried EDA on the dataset containing details of employees in ABC company.
 ### Steps Followed in Pre-processing of the above data
 1.Imported the necessary libraries:
 Before starting the preprocessing, make sure to import the necessary libraries such as pandas, numpy, matplotlib, and seaborn.
+
 2.Loaded the dataset:
 Loaded the dataset into a pandas DataFrame using the read_csv() function.
+
 3.Understand the dataset: Used the following functions to get an understanding of the dataset.
+
 df.head() # Returns the first 5 rows of the dataset
+
 df.tail() # Returns the last 5 rows of the dataset
+
 df.info() # Returns the information about the dataset such as data types and null values
+
 df.describe() # Returns the statistical summary of the datase
+
 4.Handled missing values: Checked for missing values in the dataset and handled them appropriately.
 I used the isnull() function to check for missing values and the fillna() function to fill them.
+
 5.Handled duplicate values: Checked for duplicate values in the dataset.If there is any use drop() function to drop such values.
+
 6.Handled outliers: Checked for outliers in the dataset. You can use the boxplot and scatterplot to visualize the outliers and if any remove them using the drop() function.
 ### Analysis of data is carried out 
 ### Visuals are created for each analysis and insights are drawn from it.
